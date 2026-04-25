@@ -1,0 +1,22 @@
+{
+  "name": "transfer-supabase-storage",
+  "version": "1.0.0",
+  "description": "Express.js API designed to seamlessly export and import files from Supabase Storage buckets.",
+  "license": "MIT",
+  "author": {
+    "name": "Ahmed Samy Haddad",
+    "email": "ahmedsamyop100@gmail.com",
+    "url": "https://github.com/ahmedsamyop",
+    "contact-whatsapp-url": "https://api.whatsapp.com/send/?phone=0201110649108&text&type=phone_number&app_absent=0"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.104.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
